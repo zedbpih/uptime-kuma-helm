@@ -117,8 +117,8 @@ NOTE: Rout and Ingress are mutual exclusive to another, so be sure *not* to enab
 |Specifies whether a Ingress should be created.
 
 |`ingress.className`
-|`""`
-|Name of the Ingress controller class to use.
+|`"nginx"`
+|Name of the Ingress controller class to use."
 
 |`ingress.annotations`
 |`{}`
@@ -149,11 +149,11 @@ NOTE: The resources of this Char are not enabled by default but the values displ
 |The limit to what the Pods of this deployment may consume of MEMORY, if the resources allow.
 
 |`resources.requests.cpu`
-|`100m`
+|`50m`
 |The CPU resources the Pods of this deployment are guaranteed to have available.
 
 |`resources.requests.memory`
-|`128Mi`
+|`170Mi`
 |The MEMORY resources the Pods of this deployment are guaranteed to have available.
 |===
 
